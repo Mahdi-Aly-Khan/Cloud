@@ -138,6 +138,7 @@ sudo service ssh restart
 Create 4 nodes from this image
 
 #sudo nano /etc/hosts and include these lines:FQDN
+# private-ip private-dns hostname ==> syntax
 172.31.29.56 ip-172-31-29-56.ec2.internal nn
 172.31.27.96 ip-172-31-27-96.ec2.internal rm
 172.31.18.137 ip-172-31-18-137.ec2.internal 1dn
