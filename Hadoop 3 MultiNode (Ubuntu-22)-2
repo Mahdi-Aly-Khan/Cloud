@@ -110,6 +110,7 @@ $ sudo update-rc.d disable-transparent-hugepages defaults
 
 >>Restart server
 
+su hduser
 
 # Set Swappiness
 sudo sysctl -a | grep vm.swappiness
